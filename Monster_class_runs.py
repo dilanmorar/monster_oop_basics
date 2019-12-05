@@ -1,6 +1,7 @@
 from Monster_class import *
 
-monster = Monster('Mike', 'smelly')
-print(monster.eat())
-print(monster.sleep())
-print(monster.scare_attack())
+monster1 = Monster('Mike', 'green', 'smart')
+
+print(monster1.eat())
+print(monster1.sleep())
+print(monster1.scare_attack())
